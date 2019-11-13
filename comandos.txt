@@ -1,0 +1,24 @@
+instalar o npm na pasta do projeto
+1) npm install
+2) npm express install --save
+3) node "Caminho do arquivo"
+    -> vai ler o arquivo
+4)npm install nodemon -g
+    -> instala a biblioteca global
+5)nodemon
+    -> rodar o projeto com o nodemon sempre
+    -> caso nao rode o comando reiniciar o cmd
+6)pegar o caminho do bin do sqlserve 
+    -> C:\Program Files\MySQL\MySQL Server 8.0\bin
+7)pesquisar no windows
+    -> configuração avanlada do sistema
+    -> registrar uma varialvel de amiente
+    -> path 
+        -> editar 
+            -> novo
+                ->inserir o caminho 'C:\Program Files\MySQL\MySQL Server 8.0\bin'
+8)mysql -h localhost -u root -p root
+9)npm install --save sequelize
+    10)npm install --save mysql2
+        -> biblioteca para trabalhar com banco de dados
+        -> para execultar query no node.js
